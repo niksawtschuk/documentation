@@ -52,7 +52,7 @@ You can register initialized service instances using `.register(_:)`.
 /// Create an in-memory SQLite database
 let sqlite = SQLiteDatabase(storage: .memory)
 
-/// Register to sevices.
+/// Register to services.
 services.register(sqlite)
 ```
 
